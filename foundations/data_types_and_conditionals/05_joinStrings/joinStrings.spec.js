@@ -1,28 +1,28 @@
 const values = require('./joinStrings')
 
 describe('step 2', () => {
-  test('firstName is Carlos', () => {
-    expect(values.firstName).toEqual('Carlos');
+  test('firstName is Ally', () => {
+    expect(values.firstName).toEqual('Ally');
   });
-  test.skip('lastName is Stevenson', () => {
-    expect(values.lastName).toEqual('Stevenson');
+  test('lastName is Chow', () => {
+    expect(values.lastName).toEqual('Chow');
   });
-  test.skip('thisYear is 1965', () => {
-    expect(values.thisYear).toEqual(1965);
+  test('thisYear is 2026', () => {
+    expect(values.thisYear).toEqual(2026);
   });
-  test.skip('birthYear is 1947', () => {
-    expect(values.birthYear).toEqual(1947);
+  test('birthYear is 2011', () => {
+    expect(values.birthYear).toEqual(2011);
   });
-  test.skip('greeting is properly output', () => {
-    expect(values.greeting).toEqual('Hello! My name is Carlos Stevenson and I am 18 years old.');
+  test('greeting is properly output', () => {
+    expect(values.greeting).toEqual('How is life so far? My name is Ally Chow and I am 15 years old.');
   });
 });
 
 describe('step 3', () => {
-  test.skip('fullName is Carlos Stevenson', () => {
-    expect(values.fullName).toEqual('Carlos Stevenson');
+  test('fullName is Ally Chow', () => {
+    expect(values.fullName).toEqual('Ally Chow');
   });
-  test.skip('age is 18', () => {
-    expect(values.age).toEqual(18);
+  test('age is 15', () => {
+    expect(values.age).toEqual(15);
   });
 });
